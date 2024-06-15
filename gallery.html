@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head> 
+    <title>Meet The Team</title>
+    <link rel="stylesheet" href="style.css">
+    
+<ul class="logo">
+  <a href="index.html"><img src="Images/hotbeanslgoo.png" alt="logo" class="logo" style="width: 150px; height: 150px;"></a> 
+
+</ul>
+    </head>
+<body>
+    
+    <div id="header">
+     
+   <b><font face="courier new" size="50px" color="white">Meet The Team</font></b> 
+    
+    <br>
+    <br>
+    <br>
+    </div>
+    <div id="navigation">
+      <div id="navigation">
+          <a class="links" href="gallery.html">Who We Are</a>
+          <a class="links" href="contactus.html">Contact us</a>
+          <a class="links" href="apply.html">Apply</a>
+          <a class="links" href="training.html">Training</a>        
+        </div>
+    
+    
+    <div id="content">
+    <font face="century gothic" size="3.5px">
+        <h1>Welcome to our team:</h1>
+        
+        
+        
+
+
+
+        
+        <script>
+function myFunction() {
+  
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+ 
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+        
+        
+    
+        
+        
+        <ul class="imageHolder">
+        <figure> 
+        <li class="image"> <img src="gof.jpeg"/><figcaption><a class="links" href="property.html">Elara Riven - CEO </a></figcaption></figure>
+         
+            <figure>
+                <li class="image"> <img src="staff4.png"/><figcaption><a class="links" href="property2.html">Sam Jones - Senior Web Developer</a></figcaption></figure>
+           
+            <figure>
+                <li class="image"> <img src="staff2.png"/><figcaption><a class="links" href="property3.html">Junior Web Developer</a></figcaption></figure>
+       
+             <figure>   
+                 <li class="image"> <img src="staff3.png"/><figcaption><a class="links" href="property4.html">Project Manager </a></figcaption></figure>
+            
+            <figure>
+                <li class="image"> <img src=""/><figcaption><a class="links" href="property5.html">Quality Assurance Specialist</a></figcaption></figure>
+        
+            <figure>    
+                <li class="image"> <img src="gof.jpeg"/> <figcaption><a class="links" href="property6.html">DevOps Engineer</a></figcaption></figure>
+        </ul>
+        </font>
+
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../EXAMPLE 5 Surya website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EXAMPLE 5 Surya website"
+	}
+}
